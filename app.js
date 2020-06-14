@@ -366,9 +366,42 @@
 // else if (result !== 0){
 //     document.write("No, the number is not divisible by 3");
 // }
-// task9
-T=prompt("Type in the temprature ");
-
+// // task10
+// T=+prompt("Type in the temprature ");
+// if (T > 40){
+//     document.write("It is too hot outside");
+// }
+// else if (T > 30){
+//     document.write("The Weather today is Normal.");
+// }
+// else if (T > 20){
+//     document.write("Today’s Weather is cool.");
+// }
+// else if (T > 10){
+//     document.write("OMG! Today’s weather is so Cool.");
+// }
+// task11
+a = +prompt("Type in number a ");
+operator = prompt("Type in opertaor ");
+b = +prompt("Type in number b ");
+if (operator === "+") {
+    document.write(a + " + " + b + " = " + a+b + "<br>");
+}
+else if (operator === "-") {
+    document.write(a + " - " + b + " = " + a-b + "<br>");
+}
+else if (operator === "/") {
+    document.write(a + " / " + b + " = " + a/b + "<br>");
+}
+else if (operator === "*") {
+    document.write(a + " * " + b + " = " + a*b + "<br>");;
+}
+else if (operator === "%") {
+    document.write(a + " % " + b + " = " + a%b);
+}
+else {
+    document.write("invalid");
+}
 
 
 
