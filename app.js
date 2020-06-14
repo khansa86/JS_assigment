@@ -277,13 +277,100 @@
 //     alert("Invalid");
 // }
 // task4
-var fuelLeft=prompt("How much fuel is left ",0.25+"l");
-if (fuelLeft>0.25+"l"){
-    alert("fuel is good");
-}
-else if (fuelLeft<=0.25+"l"){
-    alert("low fuel remaining please refill");
-}
+// var fuelLeft=prompt("How much fuel is left ",0.25+"l");
+// if (fuelLeft>0.25+"l"){
+//     alert("fuel is good");
+// }
+// else if (fuelLeft<=0.25+"l"){
+//     alert("low fuel remaining please refill");
+// }
+// task5
+// var a = 4;
+//  if (++a === 5){
+//       alert("given condition for variable a is true");
+//      }                                                   //cond is true
+
+//  var b = 82;
+// if (b++ === 83){
+//      alert("given condition for variable b is true"); 
+//     }                                                    //cond not true
+// var c = 12; 
+// if (c++ === 13){ 
+//      alert("condition 1 is true");
+//      }                                  // cond not true
+// if (c === 13){
+//     alert("condition 2 is true"); 
+//         }                                   //cond true
+// if (++c < 14){   
+//     alert("condition 3 is true");
+//              }                                     //cond not true
+// if(c === 14){
+//      alert("condition 4 is true");
+//                  }                                  //cond true
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost; 
+// if (totalCost === laborCost + materialCost){ 
+//     alert("The cost equals"); 
+// }
+//  if (true){
+//       alert("True"); 
+//     }
+// if (false){
+//          alert("False"); 
+//         }                                            //cond is true not false
+// if("car" < "cat"){
+//      alert("car is smaller than cat"); 
+//     }                                                      //cond true
+// task6
+// var mathsMarks = +prompt("Enter marks obtained in Math: ");
+// var englishMarks = +prompt("Enter marks obtained in English: ");
+// var scienceMarks = +prompt("Enter marks obtained in Science: ");
+// var totalMarks = 300;
+// var obtMarks=mathsMarks + englishMarks + scienceMarks;
+// var percentage = ((obtMarks)*100)/300;
+// var result=("Total Marks = " + totalMarks + "<br>"+" Marks Obtained = "+ obtMarks+ "<br>"+
+//  "Percentage "+percentage +"<br>" );
+// if (percentage >= 80)  {
+//     document.write(result+"Grade = A-one <br>");
+//     document.write("Remarks= Excellent");
+
+// }
+// else if (percentage >= 70) {
+//     document.write(result+"Grade = A <br>");
+//     document.write("Good");
+// }
+// else if (percentage >= 60) {
+//     document.write(result+"Grade = B <br>");
+//     document.write("you need improvement");
+// }
+// else if (percentage < 50) {
+//     document.write(result+"Grade = Fail <br>");
+//     document.write("sorry you failed");
+// }
+// // task7
+// var secretNumber = 3;
+// var guess = +prompt("guess the secret number: ");
+// if (guess === secretNumber) {
+//     document.write("Correct, the secret number is " + guess);
+// }
+// else if (guess === secretNumber + 1) {
+//     document.write("You are very close");
+// }
+// // task8
+// var number=+prompt("Enter the number");
+// var result=number%3;
+// if ( result === 0){
+//     document.write("Yes, the number is divisible by 3");
+// } 
+// else if (result !== 0){
+//     document.write("No, the number is not divisible by 3");
+// }
+// task9
+T=prompt("Type in the temprature ");
+
+
+
 
 
 
