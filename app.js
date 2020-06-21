@@ -381,27 +381,67 @@
 //     document.write("OMG! Today’s weather is so Cool.");
 // }
 // task11
-a = +prompt("Type in number a ");
-operator = prompt("Type in opertaor ");
-b = +prompt("Type in number b ");
-if (operator === "+") {
-    document.write(a + " + " + b + " = " + a+b + "<br>");
-}
-else if (operator === "-") {
-    document.write(a + " - " + b + " = " + a-b + "<br>");
-}
-else if (operator === "/") {
-    document.write(a + " / " + b + " = " + a/b + "<br>");
-}
-else if (operator === "*") {
-    document.write(a + " * " + b + " = " + a*b + "<br>");;
-}
-else if (operator === "%") {
-    document.write(a + " % " + b + " = " + a%b);
-}
-else {
-    document.write("invalid");
-}
+// a = +prompt("Type in number a ");
+// operator = prompt("Type in opertaor ");
+// b = +prompt("Type in number b ");
+// if (operator === "+") {
+//     document.write(a + " + " + b + " = " + a+b + "<br>");
+// }
+// else if (operator === "-") {
+//     document.write(a + " - " + b + " = " + a-b + "<br>");
+// }
+// else if (operator === "/") {
+//     document.write(a + " / " + b + " = " + a/b + "<br>");
+// }
+// else if (operator === "*") {
+//     document.write(a + " * " + b + " = " + a*b + "<br>");;
+// }
+// else if (operator === "%") {
+//     document.write(a + " % " + b + " = " + a%b);
+// }
+// else {
+//     document.write("invalid");
+// }
+
+
+
+// assignment#12-13
+// // task1
+// var input = +prompt("Type any nummber or alphabet or sound: ",O);
+// if (input >= "A" && input <= "Z") {
+//     document.write("The input is a Alphabet" + "<br>");
+
+// }
+// else if (input>= "a" && input <= "z") {
+//     document.write("The input is an Sound" + "<br>");
+
+// }
+// else  {
+//     document.write("The input is a number or symbol" + "<br>");
+
+// }
+// //task2
+// var no1=+prompt("type a number",9);
+// var no2=+prompt("type another number",8);
+// if(no1>no2){
+//     document.write(no1+" is greater than "+no2);
+// }
+// else if(no1<no2){
+//     document.write(no2+" is greater than "+no1);
+// }
+// //task3
+// var number=+prompt("Type any number");
+// if( number <0 ){
+//     document.write( number+" is negative number");
+// }
+// if( number ===0 ){
+//     document.write(number+"  input");
+// }
+// if( number >0 ){
+//     document.write(number+" is positive number");
+// }
+// //task4
+
 
 
 
